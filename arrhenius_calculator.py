@@ -1,12 +1,4 @@
-"""Write a function called arrhenius(A, Ea, T)
-Formula: k = A × e^(-Ea/RT)
-R = 8.314
-Use import math → math.exp()
-Return rate constant k
 
-Then use a for loop outside to print k
-at T = 300, 400, 500, 600K
-Use A = 1e10, Ea = 50000"""
 import math
 R=8.314
 def arrhenius(A,Ea,T):
